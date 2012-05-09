@@ -1,0 +1,47 @@
+Skype redirection
+
+This page can be used to get a 303 See Other HTTP redirect to a Skype
+resource. For instance, if you are using a wiki that only accepts
+http:// hyperlinks, but you wanted to link to skype:echo123 to call the
+user echo123, you can instead link to http://s11.no/s/skype:echo123.
+This page will also provide a link to download Skype if it has not been
+installed or the skype: protocol is not registered in the browser.
+
+The URIs minted below http://s11.no/s/skype: can also be used for
+statements about Skype contacts in RDF if the unregistered skype:
+protocol is not desireable.
+
+Examples:
+
+Replace echo123 with your Skype name
+
+http://s11.no/s/echo123
+http://s11.no/s/skype:echo123
+http://s11.no/s/skype:echo123?chat
+http://s11.no/s/skype:echo123?userinfo
+http://s11.no/s/skype:?chat&blob=vWcspqbJZRTzxKXx051UMs6vlXxZWYVObsHSXxUkJLSErG9cKA4
+Tips
+
+To find your own Skype name, click "Profile" in Skype.
+
+To find the Skype name of a contact, right click on the contact within
+Skype and click "View contact"
+
+To find the URI for a group chat in Skype, type /get uri into the chat
+window. Append that to http://s11.no/s/
+
+For persistent Skype telcons, click "Create a group" and then use /topic
+Something something to give it a name. Participants who followed the
+links can click "Join call", lurk in the text chat, or leave the chat.
+(Note: the Linux Skype client and older OS X clients are currently not
+able to initiate a group call in this way, and will instead create a
+duplicate call which can't be joined by URI.)
+
+By Stian Soiland-Reyes. This service is not affiliated with Skype but is
+applying with the Skype trademark guidelines.
+
+For support, try
+skype:?chat&blob=vWcspqbJZRTzxKXx051UMs6vlXxZWYVObsHSXxUkJLSErG9cKA4 or
+contact @soilandreyes.
+
+
