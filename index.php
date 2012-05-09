@@ -35,6 +35,8 @@ http://www.skype.com/go/skypebuttons
 <script type="text/javascript" src="http://download.skype.com/share/skypebuttons/js/skypeCheck.js"></script>
 <a href="<?php echo $skype; ?>"><img src="http://download.skype.com/share/skypebuttons/buttons/call_blue_white_124x52.png" style="border: none;" width="124" height="52" alt="Skype Me™!" /></a>
 
+<p><a href="http://s11.no/s/">About this redirection service</a></p>
+
 <?php } else {
     ?>
     <h1>Skype redirection</h1>
@@ -84,6 +86,12 @@ href="http://s11.no/s/skype:?chat&blob=vWcspqbJZRTzxKXx051UMs6vlXxZWYVObsHSXxUkJ
     create a duplicate call which can't
     be joined by URI.)
     </p>
+<h2>Source code</h2>
+    <p>This service is made using Apache 2 redirection and PHP. See
+       <a
+       href="https://github.com/stain/s/">https://github.com/stain/s/</a>
+       for source code and to suggest improvements.
+       </p>
 
     <?php } 
     ?>
