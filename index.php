@@ -150,7 +150,7 @@ href="http://s11.no/s/skype:?chat&blob=vWcspqbJZRTzxKXx051UMs6vlXxZWYVObsHSXxUkJ
     <p>This service is made using Apache 2 redirection and PHP. See
        <a
        href="https://github.com/stain/s/">https://github.com/stain/s/</a>
-       for source code and to suggest improvements.
+       for source code and to suggest improvements/pull requests.
        </p>
 
     <?php } 
@@ -163,7 +163,8 @@ This service is not affiliated with <a
 href="http://www.skype.com/">Skype</a> but is complying with the <a
 href="http://www.skype.com/intl/en-us/legal/terms/trademark-guidelines/">Skype
 trademark guidelines</a>.
-<p>For support, contact <a href="https://twitter.com/soilandreyes">@soilandreyes</a>. </p>.
+<p>For support, <a href="https://github.com/stain/s/pulls">raise an
+issue</a>. </p>.
 
 </div></footer>
   </body>
