@@ -47,11 +47,35 @@ if ($skype) {
 }
 
 ?>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
   <title>Skype redirection</title>
+    <meta charset="utf-8"/>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>s11.no</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.css" rel="stylesheet" type="text/css" /> 
+
+    <style type="text/css">
+    <!--
+    .footer {
+              width: 100%;
+              margin-top: 2em;
+              padding-top: 1em;
+              padding-bottom: 1em;
+              background-color: #f5f5f5;
+              font-size: smaller;
+    }
+    -->
+    </style>
+  
   </head>
   <body>
+ <div class="container" id="page">
   <?php
   if ($skype) { ?>
 
@@ -132,15 +156,15 @@ href="http://s11.no/s/skype:?chat&blob=vWcspqbJZRTzxKXx051UMs6vlXxZWYVObsHSXxUkJ
     <?php } 
     ?>
 
-<hr>
+</div>
+<footer class="footer"><div class="container">
 <p>By <a href="http://soiland-reyes.com/stian/">Stian Soiland-Reyes</a>.
 This service is not affiliated with <a
-href="http://www.skype.com/">Skype</a> but is applying with the <a
+href="http://www.skype.com/">Skype</a> but is complying with the <a
 href="http://www.skype.com/intl/en-us/legal/terms/trademark-guidelines/">Skype
 trademark guidelines</a>.
-<p>For support, try <a
-href="http://s11.no/s/skype:?chat&blob=vWcspqbJZRTzxKXx051UMs6vlXxZWYVObsHSXxUkJLSErG9cKA4">skype:?chat&blob=vWcspqbJZRTzxKXx051UMs6vlXxZWYVObsHSXxUkJLSErG9cKA4</a>
-or contact <a href="https://twitter.com/soilandreyes">@soilandreyes</a>. </p>.
+<p>For support, contact <a href="https://twitter.com/soilandreyes">@soilandreyes</a>. </p>.
 
+</div></footer>
   </body>
 </html>
